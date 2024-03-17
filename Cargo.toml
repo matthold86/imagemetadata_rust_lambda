@@ -15,9 +15,8 @@ edition = "2021"
 # and it will keep the alphabetic ordering for you.
 
 [dependencies]
-aws-lambda = "0.3.0"
-aws-lambda-events = "0.7.0"
-lambda-runtime = "0.3.2"
+aws_lambda_events = "0.15.0"
+lambda_runtime = "0.10.0"
 rusoto_core = "0.48.0"
 rusoto_dynamodb = "0.48.0"
 rusoto_xray = "0.48.0"

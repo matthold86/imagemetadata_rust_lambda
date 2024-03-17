@@ -16,6 +16,12 @@ edition = "2021"
 
 [dependencies]
 lambda_http = "0.10.0"
-
+aws-lambda-events = "0.7.0"
+lambda-runtime = "0.3.2"
+rusoto_core = "0.46.0"
+rusoto_dynamodb = "0.46.0"
+serde_json = "1.0.69"
+simple_logger = "2.0.0"
+log = "0.4.14"
 tokio = { version = "1", features = ["macros"] }
 
